@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_menu_hamburguers",
+  "info": {
+    "displayName": "Menu Hamburguer",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

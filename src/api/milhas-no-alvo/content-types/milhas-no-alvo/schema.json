@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "milhas_no_alvos",
+  "info": {
+    "singularName": "milhas-no-alvo",
+    "pluralName": "milhas-no-alvos",
+    "displayName": "Milhas no alvo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.logo"
+    },
+    "Menu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.menu-hamburguer"
+    },
+    "contentImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.image-text-desc"
+    }
+  }
+}

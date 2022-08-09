@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_page_image_text_descs",
+  "info": {
+    "displayName": "image + text + desc",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "Titulo": {
+      "type": "richtext",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "alt": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
